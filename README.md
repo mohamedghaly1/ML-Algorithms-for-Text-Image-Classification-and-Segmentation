@@ -36,6 +36,12 @@ Test classifier on unseen data and calculate accuracy
 
 Report classification results
 
+![image](https://github.com/user-attachments/assets/5d824e5f-61de-46ff-a8fa-f22d6a86d2a5)
+
+![image](https://github.com/user-attachments/assets/e2416218-0555-4807-b77f-9f153a760b7b)
+
+
+
 ## 🖼️ Task 2: Naïve Bayes for Color Image Classification
 
 Objective: Implement a binary Naïve Bayes classifier for color image classification using the BSDS300 dataset.
@@ -61,6 +67,9 @@ ConfMtrx(gt, lbl) to generate confusion matrix
 Visualize predicted vs ground truth segmentations
 
 Report confusion matrix
+
+![image](https://github.com/user-attachments/assets/564122d6-08a8-4f2c-ba97-6affc78fd995)
+
 
 ## 🧠 Task 3: EM Algorithm for Image Segmentation
 
@@ -88,6 +97,11 @@ Repeat until convergence
 
 Segmented binary image separating object and background
 
+![image](https://github.com/user-attachments/assets/12bc5166-596e-4ffc-a3d2-46a8334a2860)
+![image](https://github.com/user-attachments/assets/5079a3fd-f2e9-4039-9b26-0aad51d0f661)
+
+
+
 ## 🎨 Task 4: Image Segmentation using K-Means
 
 Objective: Segment images using K-means clustering with pixel features.
@@ -103,6 +117,9 @@ Extract RGB and spatial (x, y) coordinates
 Apply K-means for various values of k (2, 5, 10, 15)
 
 Assign cluster colors and visualize results
+
+![image](https://github.com/user-attachments/assets/09695ad8-af63-4791-89b4-fb2cbc51140b)
+
 
 ## 🐶🐘 Task 5: KNN for Image Classification
 
@@ -123,3 +140,20 @@ Assign label by majority voting
 #### Evaluation:
 
 Measure and report classification accuracy
+
+#### Accuracy:
+
+KNN Classifier Accuracy: 70.50%
+
+Details of 5 classification results:
+Sample 1: True Label: Bus,	Predicted: Elephant
+Sample 2: True Label: Bus,	Predicted: Bus
+Sample 3: True Label: Elephant,	Predicted: Bus
+Sample 4: True Label: Elephant,	Predicted: Elephant
+Sample 5: True Label: Elephant,	Predicted: Elephant
+
+![image](https://github.com/user-attachments/assets/d88ee966-4644-4a2d-ac1b-28a1decc5b81)
+
+
+
+
